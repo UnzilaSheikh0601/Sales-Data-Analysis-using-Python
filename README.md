@@ -23,8 +23,11 @@ The analysis helps answer key business questions such as which products sell the
 - Pandas
 - NumPy
 - Matplotlib
+<<<<<<< HEAD
 - Seaborn
 - Scikit-Learn
+=======
+>>>>>>> c4645138fa6ec4ab92530437923da6b6cb4b0297
 - Jupyter Notebook
 - Git & GitHub
 
@@ -37,6 +40,7 @@ The analysis helps answer key business questions such as which products sell the
 - Data visualization
 - Insights and business recommendations
 
+<<<<<<< HEAD
 ## Key Findings
 
 - Best month for sales: December, with $4613443.34 in revenue
@@ -47,6 +51,8 @@ The analysis helps answer key business questions such as which products sell the
 - Average order value was nearly flat across cities, roughly $184 to $188, so city has little effect on how much customers spend
 - Linear regression forecast: sales predicted at $3,716,806.14, $3,846,416.88, $3,976,027.62 for the next 3 months
 
+=======
+>>>>>>> c4645138fa6ec4ab92530437923da6b6cb4b0297
 ## Visualizations Included
 
 - Top-selling products by revenue
