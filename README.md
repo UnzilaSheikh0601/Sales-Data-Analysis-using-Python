@@ -37,8 +37,8 @@ It answers questions such as which products sell the most, which months generate
 - Best month for sales: December, with about $4.61M in revenue
 - Top revenue city: San Francisco, at about $8.26M
 - Best hour to run ads: 7 PM, based on total sales by hour
-- Top product by revenue: Wired Headphones; top by quantity: AAA Batteries (4-pack)
-- Most common product pair: Lightning Charging Cable & iPhone, bought together in 1,005 orders
+- Top product by revenue: Macbook Pro Laptop (about $8.04M); top by quantity: AAA Batteries (4-pack) with 31,017 units (Cheap accessories (batteries, cables) lead in units sold, but high-priced items (Macbook Pro, iPhone, ThinkPad) drive the revenue)
+- Most common product pair: Lightning Charging Cable & iPhone (1,005 orders); USB-C Charging Cable & Google Phone (987 orders)
 - Average order value was nearly flat across cities, from about $191 (Los Angeles) to $196 (Atlanta), so city has little effect on how much customers spend
 - Linear regression forecast: sales predicted at $3.72M, $3.85M, and $3.98M for the next 3 months
 
