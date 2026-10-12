@@ -2,64 +2,67 @@
 
 ## Project Overview
 
-This project focuses on analyzing a large sales dataset (180,000+ rows) to uncover meaningful business insights. The goal is to understand sales performance across products, time, and locations using data analysis and visualization techniques.
+This project analyzes a large sales dataset (180,000+ rows) to uncover business insights. The goal is to understand sales performance across products, time, and locations using data analysis and visualization.
 
-The analysis helps answer key business questions such as which products sell the most, which months generate higher revenue, and which cities contribute the most to sales.
+It answers questions such as which products sell the most, which months generate the most revenue, and which cities contribute the most to sales.
 
 ## Dataset
 
 - Type: Sales transaction data
 - Size: 180,000+ rows
-- Key Columns:
-  - Order Date
-  - Product
-  - Quantity Ordered
-  - Price Each
-  - City / State
+- Key Columns: Order ID, Order Date, Product, Quantity Ordered, Price Each, Purchase Address
 
-## Tools & Technologies Used
+## Tools & Technologies
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-<<<<<<< HEAD
 - Seaborn
 - Scikit-Learn
-=======
->>>>>>> c4645138fa6ec4ab92530437923da6b6cb4b0297
 - Jupyter Notebook
 - Git & GitHub
 
 ## Project Workflow
 
 - Data loading and understanding
-- Data cleaning (handling missing values, duplicates, data types)
-- Feature engineering (creating Total Price, Day, Month, Year columns)
-- Exploratory Data Analysis (EDA)
+- Data cleaning (missing values, duplicates, data types)
+- Feature engineering (Total Price, Month, Hour, Weekday, City)
+- Exploratory data analysis answering 10 business questions
 - Data visualization
-- Insights and business recommendations
+- Sales forecasting with linear regression
 
-<<<<<<< HEAD
 ## Key Findings
 
-- Best month for sales: December, with $4613443.34 in revenue
-- Top revenue city: San Francisco at $8262203.91
-- Best hour to run ads: 19:00, based on total sales by hour
+- Best month for sales: December, with about $4.61M in revenue
+- Top revenue city: San Francisco, at about $8.26M
+- Best hour to run ads: 7 PM, based on total sales by hour
 - Top product by revenue: Wired Headphones; top by quantity: AAA Batteries (4-pack)
-- Most common product pair: Lightning Charging Cable & iPhone, bought together in 1005 orders
-- Average order value was nearly flat across cities, roughly $184 to $188, so city has little effect on how much customers spend
-- Linear regression forecast: sales predicted at $3,716,806.14, $3,846,416.88, $3,976,027.62 for the next 3 months
+- Most common product pair: Lightning Charging Cable & iPhone, bought together in 1,005 orders
+- Average order value was nearly flat across cities, from about $191 (Los Angeles) to $196 (Atlanta), so city has little effect on how much customers spend
+- Linear regression forecast: sales predicted at $3.72M, $3.85M, and $3.98M for the next 3 months
 
-=======
->>>>>>> c4645138fa6ec4ab92530437923da6b6cb4b0297
+## Recommendations
+
+- Schedule ads around 7 PM, the hour with the highest sales
+- Bundle or cross-promote the Lightning Charging Cable with the iPhone, the most common product pair
+
+## Limitations
+
+- The data covers a single year, so there is no year-over-year comparison
+- The forecast is a simple linear trend on monthly totals and does not capture seasonality, which is why it predicts below the December peak
+
 ## Visualizations Included
 
-- Top-selling products by revenue
-- Monthly sales trend line chart
+- Monthly sales bar chart
 - Sales by city bar chart
+- Sales by hour line chart
+- Top products by quantity and revenue
 - Price vs quantity scatter plot
+- Average order value by city
+- Sales by weekday
+- Top 10 product pairs
 
 ## Conclusion
 
-This project demonstrates practical data analysis skills, including data cleaning, exploratory analysis, visualization, and insight generation. It reflects real-world data handling and decision-making using Python.
+This project demonstrates practical data analysis skills, including data cleaning, exploratory analysis, visualization, and forecasting. It reflects real-world data handling and decision-making using Python.
